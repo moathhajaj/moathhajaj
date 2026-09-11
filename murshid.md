@@ -1,71 +1,85 @@
 # Murshid | مرشد
 
-**Product and engineering brief**
+**From useful learning to guidance and a practical next step.**
 
-[Moath Hajaj](https://github.com/moathhajaj) ·
+[Founder profile](https://github.com/moathhajaj) ·
+[Engineering brief](https://github.com/moathhajaj/moathhajaj/blob/main/engineering.md) ·
 [Request a walkthrough](mailto:moath@murshid.me?subject=Murshid%20product%20walkthrough)
 
-## Product purpose
+## At a glance
 
-Murshid is an Arabic-English mobile product connecting short-form learning
-with mentorship, communities, events, and opportunity discovery. Its initial
-audience is university students and people early in their careers in Qatar.
+| Focus | Summary |
+|---|---|
+| Product | Arabic-English mobile learning, guidance, and opportunity discovery. |
+| Initial audience | University students and people early in their careers in Qatar. |
+| Stage | Pre-launch MVP under development and testing. |
+| Founder | Moath Hajaj, self-funded solo founder, based in Amman, Jordan. |
 
-The product hypothesis is that connecting discovery to practical actions
-will help people make progress: find guidance, join an event, or pursue an
-opportunity. A controlled pilot is needed to test that hypothesis.
+## The problem we are testing
 
-**Stage: MVP under active development and testing, before public launch.**
-Catalog content includes demonstrations; it is not evidence of customers,
-partnerships, or revenue.
+Finding useful learning is only one step. Choosing whom to ask, which
+opportunity to pursue, and what to do next is the problem Murshid aims to
+address. The initial hypothesis is that connecting discovery with guidance
+and concrete actions will help students and early-career users follow through.
 
-## What a product review can cover
+The proposed product advantage is a connected discovery-to-action journey
+within an Arabic-English experience. A pilot must establish whether it is
+useful enough for people to return and pay for guidance.
 
-- **Discovery:** short-form content, saved resources, and opportunity details.
-- **Guidance:** mentor profiles, availability, booking, and session preparation.
-- **Participation:** communities, event registration, and access passes.
-- **Operations:** a separate console for review, moderation, curation, and
-  operator access management.
+## What is built
 
-These are implemented areas of the MVP. Native media and payment integrations
-still need separate provider and device validation; real-money payments
-remain disabled pending end-to-end checks.
+The MVP implements short-form learning discovery, saved resources, mentor
+profiles and booking, session preparation, communities, event registration,
+opportunity discovery, and tools for goals and next steps.
 
-## Engineering decisions
+For example, a learner can explore a topic, find relevant guidance, prepare
+for a mentor session, and organize a follow-up action.
 
-| Decision | Practical purpose | Review boundary |
-|---|---|---|
-| React Native / Expo mobile app and a separate Next.js console | Keep the learner experience and operator workflows focused on their different tasks. | Browser previews do not validate native SDK behavior. |
-| Feature modules own data access behind public interfaces | Keep routes thin and reduce dependencies between product areas. | Shared changes still need checks across their consumers. |
-| Both applications consume generated database types | Keep their TypeScript contracts aligned with the schema after regeneration. | Types do not replace runtime validation or authorization. |
-| Server-side operator role checks | Re-check access when an operation is requested, including after role removal. | Unit tests mock the backend; hosted authorization needs separate verification. |
-| English-Arabic dictionary parity tests | Catch missing translation keys in either shared dictionary. | This does not assess translation quality, screen-local copy, or RTL layouts on devices. |
+An accompanying operator console supports mentor review, content moderation,
+catalog curation, and access management. Both the user experience and the
+operating tools are part of the product foundation.
 
-The backend uses Supabase Postgres, Auth, Storage, and Edge Functions.
-Database policies and server-side checks form the authorization boundary.
+Native media and payment integrations still require provider and device
+validation. Real-money payments remain disabled pending end-to-end checks.
+Demonstration content does not represent customers, partnerships, or revenue.
 
-## Selected local evidence
+## Business model to validate
 
-Recorded **11 September 2026** against the private implementation. These are
-focused checks performed for this brief, not a complete release assessment
-or an independent security audit.
+The proposed initial model combines **free discovery with a commission on
+completed paid guidance sessions**. Pricing, willingness to pay, repeat
+booking, and service economics remain to be validated.
 
-| Check | Recorded result | Scope |
-|---|---|---|
-| Repository health | 17 checks passed | Workspace structure, feature inventory, dependency boundaries, and repository consistency. |
-| Booking helpers and currency formatting | 30 tests passed | Price and time calculations, client-side overlap checks, and formatting cases. |
-| Operator access helpers | 10 tests passed | Missing sessions, denied or removed roles, lookup failures, and repeated access checks with mocked backend responses. |
-| Translation dictionary parity | 5 tests passed | Shared English-Arabic key alignment and dictionary consistency checks. |
+Sponsored university or employer programs are a potential later revenue
+stream, to explore after individual demand and dependable service delivery
+are demonstrated. They are not contracted business.
 
-The source and test suites are private. Passing these checks does not
-establish service delivery, real-user outcomes, or production readiness.
+## Qatar entry plan and next milestones
 
-## Next validation milestones
+Qatar is the intended first commercial market. The proposed entry approach
+is a focused campus pilot, relevant mentors, practical sessions, and referrals.
+University career teams and employers are potential collaborators; these
+relationships are prospective.
 
-1. Validate the app and Arabic/English layouts on physical iOS and Android devices.
-2. Complete provider-dependent media and payment checks before enabling them
-   for public use.
-3. Run a controlled pilot to evaluate the product hypothesis with real participants.
+1. **Product readiness:** validate physical iOS/Android devices, Arabic/English
+   layouts, and provider-dependent service and payment flows.
+2. **Pilot delivery:** recruit a focused group of participants and mentors;
+   evaluate activation and completed guidance or other useful actions.
+3. **Commercial validation:** measure repeat usage, willingness to pay,
+   acquisition cost, and contribution per completed paid session before expansion.
 
-For a product walkthrough or a discussion of the implementation, contact
-**[moath@murshid.me](mailto:moath@murshid.me)**.
+## Founder and conversations
+
+I have been building and self-funding Murshid since early 2026, leading
+development of the mobile product and its operator tools. I am currently
+based in Amman. If funded, I plan to relocate to Qatar, establish operations,
+and work full time on Murshid for the initial two years, with local hiring
+sequenced against funding and operating milestones.
+
+I welcome conversations with early-stage investors and potential pilot
+collaborators. A walkthrough can cover the MVP, operating workflows, and
+validation priorities; source code and detailed materials remain private.
+
+**[Contact Moath](mailto:moath@murshid.me?subject=Murshid%20investor%20conversation)**
+at **moath@murshid.me**.
+
+*Updated 11 September 2026.*
