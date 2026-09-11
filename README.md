@@ -2,20 +2,19 @@
 
 **Founder of Murshid | مرشد**
 
-I am building Murshid to help people turn learning into a practical next step.
-The product brings short-form learning, mentorship, communities, events, and
-opportunity discovery into one Arabic-English mobile experience.
+I am building an Arabic-English mobile product to help people turn learning
+into a practical next step. The initial focus is university students and
+people early in their careers in Qatar.
 
-The initial focus is university students and people early in their careers
-in Qatar. My work is based in Jordan.
+[Contact me](mailto:moath@murshid.me) for investment conversations, pilot
+collaboration, or a product walkthrough.
 
 ## Murshid
 
 **Learn something useful. Find your next step.**
 
-A useful idea can lead to a conversation with a mentor, an event to attend,
-or an opportunity to pursue. Murshid is designed around that connection
-between discovery and action.
+Murshid connects short-form learning with mentors, communities, events, and
+opportunities, so a useful idea can lead to a conversation or an action.
 
 The MVP includes:
 
@@ -38,16 +37,12 @@ the applications through shared database types.
 Engineering priorities include server-side authorization, feature-level
 tests, bilingual interface checks, and repeatable local verification.
 
-## Current focus
+## Current stage
 
-Murshid is an MVP under active development and testing, ahead of a public
-launch. Current work focuses on device validation and readiness for a
-controlled pilot. Demo content is used during testing; it does not represent
-customer traction.
+**MVP under development and testing, before public launch.** The next
+milestones are device validation and readiness for a controlled pilot.
+Demo content is used during testing; it does not represent customer traction.
 
 Product source code and detailed review materials are maintained privately.
 
-## Get in touch
-
-For investment conversations, pilot collaboration, or a product walkthrough:
-**[moath@murshid.me](mailto:moath@murshid.me)**.
+**[moath@murshid.me](mailto:moath@murshid.me)**
