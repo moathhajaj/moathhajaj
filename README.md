@@ -1,6 +1,6 @@
 # Moath Hajaj
 
-Founder and product engineer building [Murshid](https://github.com/moathhajaj/murshid-workspace), an Arabic-English learning, guidance, and opportunity-discovery platform.
+Founder building [Murshid](https://github.com/moathhajaj/murshid-workspace), an Arabic-English learning, guidance, and opportunity-discovery platform.
 
 Murshid helps university students and early-career users move from a useful idea to a practical next step through short-form learning, experienced people, communities, events, and curated opportunities. The initial commercial beachhead is Qatar, with Jordan as a secondary testing and contributor market.
 
@@ -25,4 +25,3 @@ Murshid helps university students and early-career users move from a useful idea
 Murshid is a mobile MVP under active development and testing. The private repository contains the implementation, architecture notes, release evidence, and honest boundaries around demo data, native-device validation, media integrations, and payments.
 
 If you are reviewing the work, [request access to the private workspace](https://github.com/moathhajaj/murshid-workspace) or reach out through my GitHub profile.
-
