@@ -6,6 +6,8 @@ I am building an Arabic-English mobile product to help people turn learning
 into a practical next step. The initial focus is university students and
 people early in their careers in Qatar.
 
+**[Explore Murshid: product, architecture, and validation](https://github.com/moathhajaj/moathhajaj/blob/main/murshid.md)**
+
 [Contact me](mailto:moath@murshid.me) for investment conversations, pilot
 collaboration, or a product walkthrough.
 
